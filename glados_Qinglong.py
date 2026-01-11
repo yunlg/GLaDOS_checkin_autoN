@@ -38,9 +38,9 @@ def start():
     if sckey != "":
         requests.get('http://www.pushplus.plus/send?token=' + sckey + '&title=VPN签到成功'+'&content='+sendContent)
 
+# comment out because not used for me
+# def main_handler(event, context):
+#   return start()
 
-def main_handler(event, context):
-  return start()
-
-if __name__ == '__main__':
-    start()
+# if __name__ == '__main__':
+#     start()
