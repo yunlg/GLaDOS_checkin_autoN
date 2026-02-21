@@ -18,10 +18,10 @@ if __name__ == '__main__':
     #referer = 'https://glados.rocks/console/checkin'
     #origin = "https://glados.rocks"
     urlNew = "https://glados.cloud/api/user/checkin"
-    refererNew = 'https://glados.cloud/console/checkin'
-    originNew = "https://glados.cloud"
+    referer = 'https://glados.cloud/console/checkin'
+    origin = "https://glados.cloud"
     #useragent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
-    useragent =  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+    useragent =  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
     payload={
         'token': 'glados.cloud'
     }
